@@ -8,3 +8,4 @@ function actualizarImagen() {
 
 const boton = document.getElementById('cambiarImagen');
 boton.addEventListener('click', actualizarImagen);
+
