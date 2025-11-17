@@ -7,3 +7,4 @@ const hijosElementos = lista.children;
 for(const li of hijosElementos) {
     console.log(li.textContent);
 }
+
