@@ -5,7 +5,7 @@ const divs = document.querySelectorAll('div');
 
 function cambiarColores () {
     divs.forEach((div, index) => {
-        div.style.backgroundColor = colores [index%colores.length]; //lo vuelve un ciclo
+        div.style.backgroundColor = colores [index%colores.length]; //si hay mas se repite
      });
 }
 
