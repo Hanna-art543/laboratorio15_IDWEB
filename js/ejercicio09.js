@@ -13,3 +13,4 @@ const section = document.getElementById("contenedor");
 
 // Insertar la lista dentro del section
 section.appendChild(lista);
+
