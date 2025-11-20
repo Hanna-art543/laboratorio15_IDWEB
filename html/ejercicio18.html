@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear UL dinámico</title>
+</head>
+<body>
+
+    <h2>Lista generada dinámicamente</h2>
+
+
+    <div id="contenedor"></div>
+
+    <script>
+        const contenedor = document.getElementById("contenedor");
+
+        // Crear UL
+        const ul = document.createElement("ul");
+
+        // Crear 5 LI 
+        for (let i = 0; i < 5; i++) {
+            const li = document.createElement("li");
+            const span = document.createElement("span");
+
+            span.textContent = "Nivel interno";
+
+            li.appendChild(span);
+            ul.appendChild(li);
+        }
+
+        // Meter al contenedor
+        contenedor.appendChild(ul);
+    </script>
+
+</body>
+</html>
